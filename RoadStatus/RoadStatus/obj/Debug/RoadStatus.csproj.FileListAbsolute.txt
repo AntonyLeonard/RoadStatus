@@ -10,3 +10,15 @@ C:\Users\leona\source\repos\RoadStatus\RoadStatus\obj\Debug\RoadStatus.csproj.Co
 C:\Users\leona\source\repos\RoadStatus\RoadStatus\obj\Debug\RoadStatus.csproj.CopyComplete
 C:\Users\leona\source\repos\RoadStatus\RoadStatus\obj\Debug\RoadStatus.exe
 C:\Users\leona\source\repos\RoadStatus\RoadStatus\obj\Debug\RoadStatus.pdb
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\bin\Debug\RoadStatus.exe.config
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\bin\Debug\RoadStatus.exe
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\bin\Debug\RoadStatus.pdb
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\bin\Debug\log4net.dll
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\bin\Debug\Newtonsoft.Json.dll
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\bin\Debug\log4net.xml
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\bin\Debug\Newtonsoft.Json.xml
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\obj\Debug\RoadStatus.csprojAssemblyReference.cache
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\obj\Debug\RoadStatus.csproj.CoreCompileInputs.cache
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\obj\Debug\RoadStatus.csproj.CopyComplete
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\obj\Debug\RoadStatus.exe
+C:\Users\leona\Documents\GitHub\RoadStatus\RoadStatus\RoadStatus\obj\Debug\RoadStatus.pdb

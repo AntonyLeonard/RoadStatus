@@ -80,8 +80,10 @@ namespace RoadStatus.Engine
             {
                 rtnCode = 4;
 
-                strBuilder.AppendFormat(@"Error: {0}. Server response {1}",
-                    ex.GetBaseException().Message, result);
+                strBuilder.AppendFormat(@"Error: {0}. {1}",
+                    ex.GetBaseException().Message, 
+                    string.IsNullOrEmpty(result) == true? string.Empty:
+                    $"Server response { result }");
 
                 _log.Error($@"Error occured in ProcessApiRequest due to 
                             {ex.GetBaseException().Message}. Server response {result}", ex);
