@@ -52,10 +52,11 @@ Select Build -> Build Solution from menu or press F6.
          C:\..\RoadStatus\bin\Debug> echo $lastexitcode – PowerShell
 
       This command displays return code of the application
-      0 – Successful output (For valid road)
-      1 – Result not found for input (For invalid road)
-      2 – Invalid input (Input cannot be parsed)
-      4 - Server error/ Cannot establish connection error 
+    
+         0 – Successful output (For valid road)
+         1 – Result not found for input (For invalid road)
+         2 – Invalid input (Input cannot be parsed)
+         4 - Server error/ Cannot establish connection error 
 
 
 # To run tests
