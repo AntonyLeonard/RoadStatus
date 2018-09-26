@@ -20,19 +20,23 @@ Select Build -> Build Solution from menu or press F6.
 
      a)	This command displays the output of the application. In the above command replace “road” with valid road name A2 as                     follows 
      
-        * C:\..\RoadStatus\bin\Debug>RoadStatus.exe A2 
+        C:\..\RoadStatus\bin\Debug>RoadStatus.exe A2 
         
         * Output         
           The status of the A2 is as follows
         	   Road Status is Good
         	   Road Status Description is No Exceptional Delays
 
-     b)	Replace “road” with invalid road name A456 as C:\..\RoadStatus\bin\Debug> .\RoadStatus.exe A456
+     b)	Replace “road” with invalid road name A456 as follows
+     
+         C:\..\RoadStatus\bin\Debug> .\RoadStatus.exe A456
          
          * Output          
            A456 is not a valid road.
 
      c)	For empty input
+         
+         C:\..\RoadStatus\bin\Debug> .\RoadStatus.exe
          
          * Output          
            Input is invalid
@@ -44,8 +48,8 @@ Select Build -> Build Solution from menu or press F6.
 
  4)	Enter the following command to check return code of the application
       
-      * C:\..\RoadStatus\bin\Debug>echo %errorlevel% - DOS and VS Developer Command Prompt
-      * C:\..\RoadStatus\bin\Debug> echo $lastexitcode – PowerShell
+         C:\..\RoadStatus\bin\Debug>echo %errorlevel% - DOS and VS Developer Command Prompt
+         C:\..\RoadStatus\bin\Debug> echo $lastexitcode – PowerShell
 
       This command displays return code of the application
       0 – Successful output (For valid road)
