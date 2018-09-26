@@ -1,18 +1,22 @@
 # RoadStatus
-Tfl RoadStatus
+Application to display Tfl Road Status with severity description
 
 
 # Build Instructions
-Open Visual Studio 2017 and open this project by selecting from menu File->Open->Project/Solution and navigate to the project folder and select the solution file (RoadStatus.sln). Select Build -> Build Solution from menu or press F6.
+Open Visual Studio 2017 and open this project by selecting from menu File->Open->Project/Solution. 
+
+Navigate to the project folder and select the solution file (RoadStatus.sln). 
+
+Select Build -> Build Solution from menu or press F6.
 
 
 # How to run the output
 1)	DOS Command Prompt, VS Developer Command Prompt or Windows PowerShell can be used to run the output.
-2)	Open any one of the Command Prompt mentioned in step 1 and navigate to the project folder which contains executable program which is RoadStatus.exe.
+2)	Open any one of the Command Prompts mentioned in step 1 and navigate to the project folder which contains executable program - RoadStatus.exe.
 3)	Execute the application by the following command
 
-    *	C:\..\RoadStatus\bin\Debug>RoadStatus.exe road - DOS and VS Developer Command
-    *	C:\..\RoadStatus\bin\Debug> .\RoadStatus.exe road – PowerShell
+    C:\..\RoadStatus\bin\Debug>RoadStatus.exe road - DOS and VS Developer Command
+    C:\..\RoadStatus\bin\Debug> .\RoadStatus.exe road – PowerShell
 
      a)	This command displays output of the application. In the above command replace “road” with valid road name A2 as                          follows 
      
