@@ -7,6 +7,8 @@ Open Visual Studio 2017 and open this project by selecting from menu File->Open-
 
 Navigate to the project folder and select the solution file (RoadStatus.sln). 
 
+Please add your ApiId and ApiKey in config file.
+
 Select Build -> Build Solution from menu or press F6.
 
 
@@ -59,9 +61,11 @@ Select Build -> Build Solution from menu or press F6.
          4 - Server error/ Cannot establish connection error 
 
 
-# To run tests
+# To Run Tests
 In Visual Studio, all test cases of Test project “TestRoadStatus” can be run by simply selecting Test->Run->All Tests 
 from menu or pressing Ctrl + R + A. The outcome of all test results can be seen through Test Explorer in Visual Studio.
+
+Please add your ApiId and ApiKey in config file of test project before running the tests.
 
 
 # Assumptions
