@@ -3,7 +3,7 @@ Tfl RoadStatus
 
 
 # Build Instructions
-Open Visual Studio 2017 and open this project by selecting from menu File->Open->Project/Solution and navigate to the project folder and select the solution file (RoadStatus.sln). Select Build -> Build Solution from menu or pressing F6.
+Open Visual Studio 2017 and open this project by selecting from menu File->Open->Project/Solution and navigate to the project folder and select the solution file (RoadStatus.sln). Select Build -> Build Solution from menu or press F6.
 
 
 # How to run the output
@@ -14,27 +14,34 @@ Open Visual Studio 2017 and open this project by selecting from menu File->Open-
     *	C:\..\RoadStatus\bin\Debug>RoadStatus.exe road - DOS and VS Developer Command
     *	C:\..\RoadStatus\bin\Debug> .\RoadStatus.exe road – PowerShell
 
-     a)	This command displays output of the application. In the above command replace “road” with valid road name A2 as                         C:\..\RoadStatus\bin\Debug>RoadStatus.exe A2 for which output can be
+     a)	This command displays output of the application. In the above command replace “road” with valid road name A2 as                          follows 
+     
+        * C:\..\RoadStatus\bin\Debug>RoadStatus.exe A2 
         
-        The status of the A2 is as follows
-        	Road Status is Good
-        	Road Status Description is No Exceptional Delays
+        * Output         
+         The status of the A2 is as follows
+        	   Road Status is Good
+        	   Road Status Description is No Exceptional Delays
 
-     b)	Replace “road” with invalid road name A456 as C:\..\RoadStatus\bin\Debug> .\RoadStatus.exe A456 for which output can be
-        
-        A456 is not a valid road.
+     b)	Replace “road” with invalid road name A456 as C:\..\RoadStatus\bin\Debug> .\RoadStatus.exe A456
+         
+         * Output          
+          A456 is not a valid road.
 
      c)	For empty input
-      
-        Input is invalid
+         
+         * Output          
+          Input is invalid
 
      d)	In case of error
-      
-        Error: Description of error. More detail from server response.
+     
+         * Output          
+          Error: Description of error. More detail from server response.
 
  4)	Enter the following command to check return code of the application
-      C:\..\RoadStatus\bin\Debug>echo %errorlevel% - DOS and VS Developer Command
-      C:\..\RoadStatus\bin\Debug> echo $lastexitcode – PowerShell
+      
+      * C:\..\RoadStatus\bin\Debug>echo %errorlevel% - DOS and VS Developer Command
+      * C:\..\RoadStatus\bin\Debug> echo $lastexitcode – PowerShell
 
       This command displays return code of the application
       0 – Successful output (For valid road)
