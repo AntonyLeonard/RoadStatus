@@ -1,0 +1,30 @@
+ INFO [02:27:08,484] (Program:28) - Application started successfully
+ INFO [02:27:22,241] (ApiRequestProcessor:54) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1411772402
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f9b537bdb534e8-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 01:27:21 GMT
+  Set-Cookie: __cfduid=de4fafc63eb37f92e94f16ce84f4aa3d51537838841; expires=Wed, 25-Sep-19 01:27:21 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [02:27:22,244] (ApiRequestProcessor:62) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [02:27:22,375] (Program:41) - Application returned code: 0

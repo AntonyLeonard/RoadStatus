@@ -1,0 +1,2494 @@
+ INFO [00:00:07,358] (Program:19) - Application started successfully
+ INFO [00:00:07,394] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2452?app_id=7bf188ad1&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:00:08,523] (ApiRequestProcessor:47) - API Response for A2452 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 0
+  x-amz-id-2: xSHwR8UEiFkC+PFXByUoVekVQ+SqfgvPYng51pj4HMKR8J73oeoqMcHada3BeOtMM4vFMtbuwzE=
+  x-amz-request-id: 6B362DDCA0736D22
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1410465026
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8dd8bce3669f5-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 23:00:07 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ INFO [00:00:08,526] (ApiRequestProcessor:53) - API Response Content: <!DOCTYPE html>
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<title>Technical Error - Transport for London</title>
+<meta content="text/html; charset=UTF-8" http-equiv"=Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<meta content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.tfl.gov.uk" r (nz 1 vz 1 lz 1 oz 1 cz 1))' http-equiv="pics-label">
+<meta name="DC.language" content="eng">
+<meta name="DC.coverage" content="UK; United Kingdom">
+<meta name="DC.creator" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.publisher" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.rights.copyright" content="http://www.tfl.gov.uk/tfl/tandc.shtml">
+<meta name="DC.subject" content="Public transport">
+<script type="text/javascript">
+            var h = document.documentElement; h.className = h.className.replace(/\bno-js\b/, '');
+        </script>
+<link href="small.css" media="screen" rel="stylesheet">
+<link href="medium.css" media="screen and (min-width: 580px)" rel="stylesheet">
+<link href="large.css" media="screen and (min-width: 900px)" rel="stylesheet">
+<!--[if lt IE 9]>
+        <link href="medium.css" rel="stylesheet">
+        <link href="large.css" rel="stylesheet">
+        <link href="ie.css" rel="stylesheet">
+        <![endif]-->
+</head>
+<body>
+<div id="container">
+<div class="mainnav" id="mainnav">
+<div class="top-row"><div class="r"><div class="logo"><span class="main-roundel">&nbsp;</span><span class="tfl-name">Transport<br>for London</span></div></div></div>
+</div>
+<div id="full-width-content">
+<div class="r">
+<div class="headline-container content-page">
+<h1>Sorry, this service is unavailable</h1>
+</div>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div id="error-window">
+<div id="error-container">
+<div id="error-clouds">
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+</div>
+<div id="error-bus"></div>
+<div id="digger-arm-1">
+<div id="digger-arm-2"></div>
+</div>
+</div>
+</div>
+<div class="r">
+<h3><br />Your authentication credentials were missing or incorrect</h3>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div>
+<p>To access our feeds you must have a valid application ID and key.</p>
+<p>You can sign up for an authentication key on our <a href=https://api-portal.tfl.gov.uk>developers portal</a>.</p>
+</div>
+</div>
+</div>
+ </div>
+</div>
+<div class="aside">
+<h3>Contact Customer Services</h3>
+<div class="contact-info-box">
+<div class="content-group">
+<h4>TfL Customer services</h4>
+<p><span class="hide-text icon mail-icon">Phone details</span>4th floor,<br>14
+Pier Walk,<br>London, SE10 0ES.</p>
+</div>
+<p class="content-group"><span class="hide-text icon phone-icon">Phone details</span><abbr title="Telephone number">T</abbr>: 0343 222 1234<br><abbr title="Fax number">F</abbr>: 020 7363 9561</p>
+<p class="content-group"><span class="hide-text icon email-icon">Email address</span><a href="/cdn-cgi/l/email-protection#40232f2e342123340034262c6e272f366e352b"><span class="__cf_email__" data-cfemail="98fbf7f6ecf9fbecd8ecfef4b6fff7eeb6edf3">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+ERROR [00:00:08,579] (ApiRequestProcessor:78) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 55
+ INFO [00:00:08,581] (Program:27) - Application returned code: 2
+ INFO [00:05:17,627] (Program:19) - Application started successfully
+ INFO [00:05:17,660] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2452?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:05:18,646] (ApiRequestProcessor:47) - API Response for A2452 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 906872435
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8e51d1ba63560-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Mon, 24 Sep 2018 23:05:18 GMT
+  Set-Cookie: __cfduid=d20022453455f1be9eb1d68a5db274b601537830317; expires=Tue, 24-Sep-19 23:05:17 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [00:05:18,657] (Program:27) - Application returned code: 1
+ INFO [00:06:11,048] (Program:19) - Application started successfully
+ INFO [00:06:11,084] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2452?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:06:11,264] (ApiRequestProcessor:47) - API Response for A2452 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 53
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 906881438 906872435
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8e668c91f355a-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Mon, 24 Sep 2018 23:06:10 GMT
+  Set-Cookie: __cfduid=d965a31c2f6f2e2d12e8a6672b108a4191537830370; expires=Tue, 24-Sep-19 23:06:10 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [00:06:11,275] (Program:27) - Application returned code: 1
+ INFO [00:07:20,934] (Program:19) - Application started successfully
+ INFO [00:07:20,966] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:07:21,190] (ApiRequestProcessor:47) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 906894154
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8e81dbc473560-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 23:07:20 GMT
+  Set-Cookie: __cfduid=d985402118d61cdc4f2ce9d951c8a30401537830440; expires=Tue, 24-Sep-19 23:07:20 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:07:21,191] (ApiRequestProcessor:53) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [00:07:21,191] (ApiRequestProcessor:55) - result type: System.String
+ INFO [00:07:21,518] (Program:27) - Application returned code: 0
+ INFO [00:08:44,509] (Program:19) - Application started successfully
+ INFO [00:08:44,539] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:08:45,009] (ApiRequestProcessor:47) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 84
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 906908997 906894154
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8ea29b8b06b55-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 23:08:44 GMT
+  Set-Cookie: __cfduid=db59bdedc8062357fec2961e8574909391537830524; expires=Tue, 24-Sep-19 23:08:44 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:08:45,010] (ApiRequestProcessor:53) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [00:08:45,010] (ApiRequestProcessor:55) - result type: System.Threading.Tasks.Task`1[System.String]
+ INFO [00:08:45,340] (Program:27) - Application returned code: 0
+ INFO [00:10:50,870] (Program:19) - Application started successfully
+ INFO [00:10:50,903] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:10:51,472] (ApiRequestProcessor:47) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1816006211
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8ed40094f6ab5-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 23:10:50 GMT
+  Set-Cookie: __cfduid=dae4c572a3f681eb4eadef5e37cc4c0a61537830650; expires=Tue, 24-Sep-19 23:10:50 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:10:51,473] (ApiRequestProcessor:53) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [00:10:51,473] (ApiRequestProcessor:55) - result type: System.Net.Http.StreamContent
+ INFO [00:10:51,814] (Program:27) - Application returned code: 0
+ INFO [00:11:41,287] (Program:19) - Application started successfully
+ INFO [00:11:41,320] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:11:42,147] (ApiRequestProcessor:47) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1410592332
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8ee7afa8b6ac7-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 23:11:41 GMT
+  Set-Cookie: __cfduid=d1651cb5e444d6d6517ffb357b06c59d11537830701; expires=Tue, 24-Sep-19 23:11:41 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:11:42,147] (ApiRequestProcessor:53) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [00:11:42,148] (ApiRequestProcessor:55) - result type: System.Net.Http.Headers.HttpResponseHeaders
+ INFO [00:11:42,493] (Program:27) - Application returned code: 0
+ INFO [00:14:08,970] (Program:19) - Application started successfully
+ INFO [00:14:09,003] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:14:09,505] (ApiRequestProcessor:47) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 906964563
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8f215cf406b79-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 23:14:08 GMT
+  Set-Cookie: __cfduid=d49eb59e950d60f1362036a176af945691537830848; expires=Tue, 24-Sep-19 23:14:08 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:14:09,506] (ApiRequestProcessor:53) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [00:14:09,506] (ApiRequestProcessor:55) - result type: application/json; charset=utf-8
+ INFO [00:14:09,855] (Program:27) - Application returned code: 0
+ INFO [00:14:31,054] (Program:19) - Application started successfully
+ INFO [00:14:31,085] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:14:31,262] (ApiRequestProcessor:47) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 22
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 906968419 906964563
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8f29ddb1e6b8b-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 23:14:30 GMT
+  Set-Cookie: __cfduid=d5e0e6d029ac9471c8ca89d6273261ab71537830870; expires=Tue, 24-Sep-19 23:14:30 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:14:31,263] (ApiRequestProcessor:53) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [00:14:31,263] (ApiRequestProcessor:55) - result type: application/json; charset=utf-8
+ INFO [00:14:31,596] (Program:27) - Application returned code: 0
+ INFO [00:17:46,419] (Program:19) - Application started successfully
+ INFO [00:17:46,452] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad1&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:17:48,343] (ApiRequestProcessor:47) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 0
+  x-amz-id-2: 1+BzJwG7SxDJk+XSWmOwmaedmagsqGJYxr/XH5HysQsJQyC6gajrLaFjUEvQt0ZSumA64ERreDw=
+  x-amz-request-id: 0EBA16865FB2AE77
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 907001344
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8f76d3e1f6ac1-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 23:17:47 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ INFO [00:17:48,344] (ApiRequestProcessor:53) - API Response Content: <!DOCTYPE html>
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<title>Technical Error - Transport for London</title>
+<meta content="text/html; charset=UTF-8" http-equiv"=Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<meta content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.tfl.gov.uk" r (nz 1 vz 1 lz 1 oz 1 cz 1))' http-equiv="pics-label">
+<meta name="DC.language" content="eng">
+<meta name="DC.coverage" content="UK; United Kingdom">
+<meta name="DC.creator" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.publisher" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.rights.copyright" content="http://www.tfl.gov.uk/tfl/tandc.shtml">
+<meta name="DC.subject" content="Public transport">
+<script type="text/javascript">
+            var h = document.documentElement; h.className = h.className.replace(/\bno-js\b/, '');
+        </script>
+<link href="small.css" media="screen" rel="stylesheet">
+<link href="medium.css" media="screen and (min-width: 580px)" rel="stylesheet">
+<link href="large.css" media="screen and (min-width: 900px)" rel="stylesheet">
+<!--[if lt IE 9]>
+        <link href="medium.css" rel="stylesheet">
+        <link href="large.css" rel="stylesheet">
+        <link href="ie.css" rel="stylesheet">
+        <![endif]-->
+</head>
+<body>
+<div id="container">
+<div class="mainnav" id="mainnav">
+<div class="top-row"><div class="r"><div class="logo"><span class="main-roundel">&nbsp;</span><span class="tfl-name">Transport<br>for London</span></div></div></div>
+</div>
+<div id="full-width-content">
+<div class="r">
+<div class="headline-container content-page">
+<h1>Sorry, this service is unavailable</h1>
+</div>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div id="error-window">
+<div id="error-container">
+<div id="error-clouds">
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+</div>
+<div id="error-bus"></div>
+<div id="digger-arm-1">
+<div id="digger-arm-2"></div>
+</div>
+</div>
+</div>
+<div class="r">
+<h3><br />Your authentication credentials were missing or incorrect</h3>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div>
+<p>To access our feeds you must have a valid application ID and key.</p>
+<p>You can sign up for an authentication key on our <a href=https://api-portal.tfl.gov.uk>developers portal</a>.</p>
+</div>
+</div>
+</div>
+ </div>
+</div>
+<div class="aside">
+<h3>Contact Customer Services</h3>
+<div class="contact-info-box">
+<div class="content-group">
+<h4>TfL Customer services</h4>
+<p><span class="hide-text icon mail-icon">Phone details</span>4th floor,<br>14
+Pier Walk,<br>London, SE10 0ES.</p>
+</div>
+<p class="content-group"><span class="hide-text icon phone-icon">Phone details</span><abbr title="Telephone number">T</abbr>: 0343 222 1234<br><abbr title="Fax number">F</abbr>: 020 7363 9561</p>
+<p class="content-group"><span class="hide-text icon email-icon">Email address</span><a href="/cdn-cgi/l/email-protection#34575b5a40555740744052581a535b421a415f"><span class="__cf_email__" data-cfemail="1d7e7273697c7e695d697b71337a726b336876">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+ INFO [00:17:48,345] (ApiRequestProcessor:55) - result type: text/html
+ERROR [00:17:48,399] (ApiRequestProcessor:80) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 57
+ INFO [00:17:48,401] (Program:27) - Application returned code: 2
+ INFO [00:27:10,075] (Program:19) - Application started successfully
+ INFO [00:27:10,110] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad1&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:27:10,127] (ApiRequestProcessor:48) - getResponse: System.Threading.Tasks.Task`1[System.Net.Http.HttpResponseMessage]
+ INFO [00:27:11,522] (ApiRequestProcessor:52) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 563
+  x-amz-id-2: 1+BzJwG7SxDJk+XSWmOwmaedmagsqGJYxr/XH5HysQsJQyC6gajrLaFjUEvQt0ZSumA64ERreDw=
+  x-amz-request-id: 0EBA16865FB2AE77
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 907086830 907001344
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f9052d7fe56aa3-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 23:27:10 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ INFO [00:27:11,523] (ApiRequestProcessor:58) - API Response Content: <!DOCTYPE html>
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<title>Technical Error - Transport for London</title>
+<meta content="text/html; charset=UTF-8" http-equiv"=Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<meta content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.tfl.gov.uk" r (nz 1 vz 1 lz 1 oz 1 cz 1))' http-equiv="pics-label">
+<meta name="DC.language" content="eng">
+<meta name="DC.coverage" content="UK; United Kingdom">
+<meta name="DC.creator" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.publisher" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.rights.copyright" content="http://www.tfl.gov.uk/tfl/tandc.shtml">
+<meta name="DC.subject" content="Public transport">
+<script type="text/javascript">
+            var h = document.documentElement; h.className = h.className.replace(/\bno-js\b/, '');
+        </script>
+<link href="small.css" media="screen" rel="stylesheet">
+<link href="medium.css" media="screen and (min-width: 580px)" rel="stylesheet">
+<link href="large.css" media="screen and (min-width: 900px)" rel="stylesheet">
+<!--[if lt IE 9]>
+        <link href="medium.css" rel="stylesheet">
+        <link href="large.css" rel="stylesheet">
+        <link href="ie.css" rel="stylesheet">
+        <![endif]-->
+</head>
+<body>
+<div id="container">
+<div class="mainnav" id="mainnav">
+<div class="top-row"><div class="r"><div class="logo"><span class="main-roundel">&nbsp;</span><span class="tfl-name">Transport<br>for London</span></div></div></div>
+</div>
+<div id="full-width-content">
+<div class="r">
+<div class="headline-container content-page">
+<h1>Sorry, this service is unavailable</h1>
+</div>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div id="error-window">
+<div id="error-container">
+<div id="error-clouds">
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+</div>
+<div id="error-bus"></div>
+<div id="digger-arm-1">
+<div id="digger-arm-2"></div>
+</div>
+</div>
+</div>
+<div class="r">
+<h3><br />Your authentication credentials were missing or incorrect</h3>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div>
+<p>To access our feeds you must have a valid application ID and key.</p>
+<p>You can sign up for an authentication key on our <a href=https://api-portal.tfl.gov.uk>developers portal</a>.</p>
+</div>
+</div>
+</div>
+ </div>
+</div>
+<div class="aside">
+<h3>Contact Customer Services</h3>
+<div class="contact-info-box">
+<div class="content-group">
+<h4>TfL Customer services</h4>
+<p><span class="hide-text icon mail-icon">Phone details</span>4th floor,<br>14
+Pier Walk,<br>London, SE10 0ES.</p>
+</div>
+<p class="content-group"><span class="hide-text icon phone-icon">Phone details</span><abbr title="Telephone number">T</abbr>: 0343 222 1234<br><abbr title="Fax number">F</abbr>: 020 7363 9561</p>
+<p class="content-group"><span class="hide-text icon email-icon">Email address</span><a href="/cdn-cgi/l/email-protection#284b47465c494b5c685c4e44064f475e065d43"><span class="__cf_email__" data-cfemail="b7d4d8d9c3d6d4c3f7c3d1db99d0d8c199c2dc">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+ INFO [00:27:11,523] (ApiRequestProcessor:60) - result type: text/html
+ERROR [00:27:11,575] (ApiRequestProcessor:85) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 62
+ INFO [00:27:11,577] (Program:27) - Application returned code: 2
+ INFO [00:27:29,583] (Program:19) - Application started successfully
+ INFO [00:27:29,617] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:27:29,632] (ApiRequestProcessor:48) - getResponse: System.Threading.Tasks.Task`1[System.Net.Http.HttpResponseMessage]
+ INFO [00:27:29,866] (ApiRequestProcessor:52) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 907089805 907089794
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f9059faee769dd-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 23:27:29 GMT
+  Set-Cookie: __cfduid=df2e3dcd8e8e1d54e0bb8734714229cbf1537831649; expires=Tue, 24-Sep-19 23:27:29 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:27:29,866] (ApiRequestProcessor:58) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [00:27:29,867] (ApiRequestProcessor:60) - result type: application/json; charset=utf-8
+ INFO [00:27:30,217] (Program:27) - Application returned code: 0
+ INFO [00:29:01,398] (Program:19) - Application started successfully
+ INFO [00:29:01,429] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:29:01,999] (ApiRequestProcessor:53) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1816188564
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f907dfc99669fb-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 23:29:01 GMT
+  Set-Cookie: __cfduid=de544123af5183cb8ef0e16002d01f7011537831741; expires=Tue, 24-Sep-19 23:29:01 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:29:02,000] (ApiRequestProcessor:59) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [00:29:02,001] (ApiRequestProcessor:61) - result type: application/json; charset=utf-8
+ INFO [00:29:02,339] (Program:27) - Application returned code: 0
+ INFO [00:29:47,496] (Program:19) - Application started successfully
+ INFO [00:29:47,529] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [00:29:55,689] (ApiRequestProcessor:53) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1410785015
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f908fd9e3fbc4a-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 23:29:55 GMT
+  Set-Cookie: __cfduid=de0ac1dc44fbf5a0fd81086dd2f5f8ffe1537831787; expires=Tue, 24-Sep-19 23:29:47 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:29:55,690] (ApiRequestProcessor:59) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [00:29:55,690] (ApiRequestProcessor:61) - result type: application/json; charset=utf-8
+ INFO [00:29:56,018] (Program:27) - Application returned code: 0
+ INFO [00:40:33,372] (Program:19) - Application started successfully
+ INFO [00:40:33,921] (ApiRequestProcessor:44) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1816294624
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f918c45fe3bc5c-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 23:40:33 GMT
+  Set-Cookie: __cfduid=d98633a77f7c283dd8db8f2499b63fb671537832433; expires=Tue, 24-Sep-19 23:40:33 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:40:33,922] (ApiRequestProcessor:52) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [00:40:33,923] (ApiRequestProcessor:54) - result type: application/json; charset=utf-8
+ INFO [00:40:34,247] (Program:27) - Application returned code: 0
+ INFO [00:40:37,535] (Program:19) - Application started successfully
+ INFO [00:40:40,858] (ApiRequestProcessor:44) - API Response for A254 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 907202009
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f918dc5dcbbc38-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Mon, 24 Sep 2018 23:40:40 GMT
+  Set-Cookie: __cfduid=daa7fbb8adc5f64ea3bcebdd4e264db551537832437; expires=Tue, 24-Sep-19 23:40:37 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [00:40:40,869] (Program:27) - Application returned code: 1
+ INFO [00:41:33,687] (Program:19) - Application started successfully
+ INFO [00:41:34,540] (ApiRequestProcessor:44) - API Response for A254 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 864
+  x-amz-id-2: YnUqrkoxQYssrQ5OqNxwe46jYdrx/JySKWVTDmozJ7yDE41qNQJXXE6SIKcTFO+6Swf/45O8l3o=
+  x-amz-request-id: 88D13B03C725A7A5
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1816303872 1816171746
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f91a3f5a206b61-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 23:41:33 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ INFO [00:41:34,542] (ApiRequestProcessor:52) - API Response Content: <!DOCTYPE html>
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<title>Technical Error - Transport for London</title>
+<meta content="text/html; charset=UTF-8" http-equiv"=Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<meta content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.tfl.gov.uk" r (nz 1 vz 1 lz 1 oz 1 cz 1))' http-equiv="pics-label">
+<meta name="DC.language" content="eng">
+<meta name="DC.coverage" content="UK; United Kingdom">
+<meta name="DC.creator" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.publisher" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.rights.copyright" content="http://www.tfl.gov.uk/tfl/tandc.shtml">
+<meta name="DC.subject" content="Public transport">
+<script type="text/javascript">
+            var h = document.documentElement; h.className = h.className.replace(/\bno-js\b/, '');
+        </script>
+<link href="small.css" media="screen" rel="stylesheet">
+<link href="medium.css" media="screen and (min-width: 580px)" rel="stylesheet">
+<link href="large.css" media="screen and (min-width: 900px)" rel="stylesheet">
+<!--[if lt IE 9]>
+        <link href="medium.css" rel="stylesheet">
+        <link href="large.css" rel="stylesheet">
+        <link href="ie.css" rel="stylesheet">
+        <![endif]-->
+</head>
+<body>
+<div id="container">
+<div class="mainnav" id="mainnav">
+<div class="top-row"><div class="r"><div class="logo"><span class="main-roundel">&nbsp;</span><span class="tfl-name">Transport<br>for London</span></div></div></div>
+</div>
+<div id="full-width-content">
+<div class="r">
+<div class="headline-container content-page">
+<h1>Sorry, this service is unavailable</h1>
+</div>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div id="error-window">
+<div id="error-container">
+<div id="error-clouds">
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+</div>
+<div id="error-bus"></div>
+<div id="digger-arm-1">
+<div id="digger-arm-2"></div>
+</div>
+</div>
+</div>
+<div class="r">
+<h3><br />Your authentication credentials were missing or incorrect</h3>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div>
+<p>To access our feeds you must have a valid application ID and key.</p>
+<p>You can sign up for an authentication key on our <a href=https://api-portal.tfl.gov.uk>developers portal</a>.</p>
+</div>
+</div>
+</div>
+ </div>
+</div>
+<div class="aside">
+<h3>Contact Customer Services</h3>
+<div class="contact-info-box">
+<div class="content-group">
+<h4>TfL Customer services</h4>
+<p><span class="hide-text icon mail-icon">Phone details</span>4th floor,<br>14
+Pier Walk,<br>London, SE10 0ES.</p>
+</div>
+<p class="content-group"><span class="hide-text icon phone-icon">Phone details</span><abbr title="Telephone number">T</abbr>: 0343 222 1234<br><abbr title="Fax number">F</abbr>: 020 7363 9561</p>
+<p class="content-group"><span class="hide-text icon email-icon">Email address</span><a href="/cdn-cgi/l/email-protection#3b5854554f5a584f7b4f5d57155c544d154e50"><span class="__cf_email__" data-cfemail="bcdfd3d2c8dddfc8fcc8dad092dbd3ca92c9d7">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+ERROR [00:41:34,596] (ApiRequestProcessor:77) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.. 
+                    Server response <!DOCTYPE html>
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<title>Technical Error - Transport for London</title>
+<meta content="text/html; charset=UTF-8" http-equiv"=Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<meta content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.tfl.gov.uk" r (nz 1 vz 1 lz 1 oz 1 cz 1))' http-equiv="pics-label">
+<meta name="DC.language" content="eng">
+<meta name="DC.coverage" content="UK; United Kingdom">
+<meta name="DC.creator" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.publisher" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.rights.copyright" content="http://www.tfl.gov.uk/tfl/tandc.shtml">
+<meta name="DC.subject" content="Public transport">
+<script type="text/javascript">
+            var h = document.documentElement; h.className = h.className.replace(/\bno-js\b/, '');
+        </script>
+<link href="small.css" media="screen" rel="stylesheet">
+<link href="medium.css" media="screen and (min-width: 580px)" rel="stylesheet">
+<link href="large.css" media="screen and (min-width: 900px)" rel="stylesheet">
+<!--[if lt IE 9]>
+        <link href="medium.css" rel="stylesheet">
+        <link href="large.css" rel="stylesheet">
+        <link href="ie.css" rel="stylesheet">
+        <![endif]-->
+</head>
+<body>
+<div id="container">
+<div class="mainnav" id="mainnav">
+<div class="top-row"><div class="r"><div class="logo"><span class="main-roundel">&nbsp;</span><span class="tfl-name">Transport<br>for London</span></div></div></div>
+</div>
+<div id="full-width-content">
+<div class="r">
+<div class="headline-container content-page">
+<h1>Sorry, this service is unavailable</h1>
+</div>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div id="error-window">
+<div id="error-container">
+<div id="error-clouds">
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+</div>
+<div id="error-bus"></div>
+<div id="digger-arm-1">
+<div id="digger-arm-2"></div>
+</div>
+</div>
+</div>
+<div class="r">
+<h3><br />Your authentication credentials were missing or incorrect</h3>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div>
+<p>To access our feeds you must have a valid application ID and key.</p>
+<p>You can sign up for an authentication key on our <a href=https://api-portal.tfl.gov.uk>developers portal</a>.</p>
+</div>
+</div>
+</div>
+ </div>
+</div>
+<div class="aside">
+<h3>Contact Customer Services</h3>
+<div class="contact-info-box">
+<div class="content-group">
+<h4>TfL Customer services</h4>
+<p><span class="hide-text icon mail-icon">Phone details</span>4th floor,<br>14
+Pier Walk,<br>London, SE10 0ES.</p>
+</div>
+<p class="content-group"><span class="hide-text icon phone-icon">Phone details</span><abbr title="Telephone number">T</abbr>: 0343 222 1234<br><abbr title="Fax number">F</abbr>: 020 7363 9561</p>
+<p class="content-group"><span class="hide-text icon email-icon">Email address</span><a href="/cdn-cgi/l/email-protection#3b5854554f5a584f7b4f5d57155c544d154e50"><span class="__cf_email__" data-cfemail="bcdfd3d2c8dddfc8fcc8dad092dbd3ca92c9d7">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 54
+ INFO [00:41:34,616] (Program:27) - Application returned code: 2
+ INFO [01:04:47,836] (Program:19) - Application started successfully
+ INFO [01:04:49,725] (ApiRequestProcessor:56) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1411107394
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f93c4729d3355a-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 00:04:49 GMT
+  Set-Cookie: __cfduid=dbe556fe7fa92a86615a4dab7fb72c6ab1537833887; expires=Wed, 25-Sep-19 00:04:47 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [01:04:49,727] (ApiRequestProcessor:64) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [01:04:49,867] (Program:27) - Application returned code: 0
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  INFO [01:05:14,729] (Program:19) - Application started successfully
+ INFO [01:05:15,144] (ApiRequestProcessor:56) - API Response for A2452 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 1816522708
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f93ceccd8dbbc6-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 00:05:14 GMT
+  Set-Cookie: __cfduid=d4c1a57de77a893b09f202beab42aa76d1537833914; expires=Wed, 25-Sep-19 00:05:14 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [01:05:15,146] (ApiRequestProcessor:81) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T00:04:47.9260107Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A2452","message":"The following road id is not recognised: A2452"}
+ INFO [01:05:15,156] (Program:27) - Application returned code: 1
+ INFO [01:09:38,479] (Program:19) - Application started successfully
+ INFO [01:16:08,862] (Program:21) - Application started successfully
+ INFO [01:16:08,878] (Program:36) - Application returned code: 2
+ INFO [01:16:36,518] (Program:21) - Application started successfully
+ INFO [01:16:37,231] (ApiRequestProcessor:56) - API Response for A2452 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 907535573
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f94d942ed06b85-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 00:16:36 GMT
+  Set-Cookie: __cfduid=d8081d73eff76b8be3cfd70d6475e855e1537834596; expires=Wed, 25-Sep-19 00:16:36 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [01:16:37,233] (ApiRequestProcessor:81) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T00:16:10.0200315Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A2452","message":"The following road id is not recognised: A2452"}
+ INFO [01:16:37,245] (Program:36) - Application returned code: 1
+ INFO [01:16:44,638] (Program:21) - Application started successfully
+ INFO [01:16:45,148] (ApiRequestProcessor:56) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 907536758
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f94dc4ced36b55-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 00:16:44 GMT
+  Set-Cookie: __cfduid=d56c11fbbba7270f2d2a5a55ecb4d205d1537834604; expires=Wed, 25-Sep-19 00:16:44 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [01:16:45,150] (ApiRequestProcessor:64) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [01:16:45,279] (Program:36) - Application returned code: 0
+ INFO [01:21:51,747] (Program:19) - Application started successfully
+ INFO [01:21:52,297] (ApiRequestProcessor:56) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 119
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1411251011 1411233800
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f955465844356c-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 00:21:51 GMT
+  Set-Cookie: __cfduid=dc850103f2ee808c6530c13bf29a00a941537834911; expires=Wed, 25-Sep-19 00:21:51 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [01:21:52,299] (ApiRequestProcessor:64) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [01:21:52,422] (Program:32) - Application returned code: 0
+ INFO [01:21:58,441] (Program:19) - Application started successfully
+ INFO [01:21:58,689] (ApiRequestProcessor:56) - API Response for A2452 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 907586084
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f9556e08da354e-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 00:21:58 GMT
+  Set-Cookie: __cfduid=d3299fedc47bd99647dcd4f81e35e64711537834918; expires=Wed, 25-Sep-19 00:21:58 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [01:21:58,691] (ApiRequestProcessor:81) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T00:21:31.4185406Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A2452","message":"The following road id is not recognised: A2452"}
+ INFO [01:21:58,703] (Program:32) - Application returned code: 1
+ INFO [01:22:04,264] (Program:19) - Application started successfully
+ INFO [01:22:04,518] (ApiRequestProcessor:56) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 907587022
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f955925a2934e2-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 00:22:03 GMT
+  Set-Cookie: __cfduid=d2fee12346b0d14ec44889f9ea77832011537834923; expires=Wed, 25-Sep-19 00:22:03 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [01:22:04,520] (ApiRequestProcessor:64) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [01:22:04,653] (Program:32) - Application returned code: 0
+ INFO [01:22:15,287] (Program:19) - Application started successfully
+ INFO [01:22:15,520] (ApiRequestProcessor:56) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 142
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 2
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1411254504 1411233800
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f955d77fff356c-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 00:22:14 GMT
+  Set-Cookie: __cfduid=dc096ceb29198818bce856de52d312e7d1537834934; expires=Wed, 25-Sep-19 00:22:14 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [01:22:15,523] (ApiRequestProcessor:64) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [01:22:15,647] (Program:32) - Application returned code: 0
+ INFO [01:22:44,018] (Program:19) - Application started successfully
+ INFO [01:22:44,249] (ApiRequestProcessor:56) - API Response for A2452 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 1411258595
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f9568aec68354e-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 00:22:43 GMT
+  Set-Cookie: __cfduid=df9e0911679128ca89156204fb7102b581537834963; expires=Wed, 25-Sep-19 00:22:43 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [01:22:44,251] (ApiRequestProcessor:81) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T00:22:16.9997311Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A2452","message":"The following road id is not recognised: A2452"}
+ INFO [01:22:44,263] (Program:32) - Application returned code: 1
+ INFO [01:22:54,651] (Program:19) - Application started successfully
+ INFO [01:22:54,663] (Program:32) - Application returned code: 2
+ INFO [01:29:38,915] (Program:19) - Application started successfully
+ INFO [01:29:39,143] (ApiRequestProcessor:56) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1816737046
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f960ac0ecdbb9c-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 00:29:38 GMT
+  Set-Cookie: __cfduid=d462f565b03eca58c8f81a442b8617d5e1537835378; expires=Wed, 25-Sep-19 00:29:38 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [01:29:39,145] (ApiRequestProcessor:64) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [01:29:39,278] (Program:32) - Application returned code: 0
+ INFO [01:31:33,680] (Program:19) - Application started successfully
+ INFO [01:31:34,244] (ApiRequestProcessor:56) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 907669866
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f9637b6a8a69e9-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 00:31:33 GMT
+  Set-Cookie: __cfduid=db1485f448624ff8e5f043962741a868a1537835493; expires=Wed, 25-Sep-19 00:31:33 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [01:31:34,246] (ApiRequestProcessor:64) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [01:31:34,385] (Program:32) - Application returned code: 0
+ INFO [01:32:15,685] (Program:19) - Application started successfully
+ INFO [01:32:18,403] (ApiRequestProcessor:56) - API Response for A233 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 1816758042
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f9647fda496a01-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 00:32:17 GMT
+  Set-Cookie: __cfduid=de9fc0781ef84d1490e307bc571b857221537835535; expires=Wed, 25-Sep-19 00:32:15 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [01:32:18,405] (ApiRequestProcessor:81) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T00:31:51.1498716Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A233","message":"The following road id is not recognised: A233"}
+ INFO [01:32:18,416] (Program:32) - Application returned code: 1
+ INFO [01:32:33,108] (Program:19) - Application started successfully
+ INFO [01:32:33,324] (ApiRequestProcessor:56) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 59
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 907678476 907669866
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f964ecb9026aa3-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 00:32:32 GMT
+  Set-Cookie: __cfduid=d63ac5c7991cfb53dfb8cdea2cfeee4221537835552; expires=Wed, 25-Sep-19 00:32:32 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [01:32:33,326] (ApiRequestProcessor:64) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [01:32:33,455] (Program:32) - Application returned code: 0
+ INFO [01:33:00,856] (Program:19) - Application started successfully
+ INFO [01:33:01,081] (ApiRequestProcessor:56) - API Response for A233 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 907682681
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f9659a2ecf6a73-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 00:33:00 GMT
+  Set-Cookie: __cfduid=d03e92a4474b012c11180e4b950431dee1537835580; expires=Wed, 25-Sep-19 00:33:00 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [01:33:01,083] (ApiRequestProcessor:81) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T00:32:33.7853319Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A233","message":"The following road id is not recognised: A233"}
+ INFO [01:33:01,095] (Program:32) - Application returned code: 1
+ INFO [01:33:14,821] (Program:19) - Application started successfully
+ INFO [01:33:14,833] (Program:32) - Application returned code: 2
+ INFO [01:45:14,613] (Program:28) - Application started successfully
+ INFO [01:45:15,498] (ApiRequestProcessor:54) - API Response for cd.. is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 1816854210
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f97787ba5e35d8-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 00:45:14 GMT
+  Set-Cookie: __cfduid=d23b059b48a932defb33767d91f4369e51537836314; expires=Wed, 25-Sep-19 00:45:14 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [01:45:15,500] (ApiRequestProcessor:79) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T00:44:48.1568693Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/cd..","message":"The following road id is not recognised: cd.."}
+ INFO [01:45:15,511] (Program:41) - Application returned code: 1
+ INFO [02:23:28,815] (Program:28) - Application started successfully
+ INFO [02:23:28,835] (Program:41) - Application returned code: 2
+ INFO [02:24:09,172] (Program:28) - Application started successfully
+ INFO [02:24:09,551] (ApiRequestProcessor:54) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1817132719
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f9b0835923358a-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 01:24:09 GMT
+  Set-Cookie: __cfduid=d59914c1ace012c8215d7ed84d2a8bfce1537838648; expires=Wed, 25-Sep-19 01:24:08 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [02:24:09,553] (ApiRequestProcessor:62) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [02:24:09,681] (Program:41) - Application returned code: 0
+ INFO [02:24:20,965] (Program:28) - Application started successfully
+ INFO [02:24:21,184] (ApiRequestProcessor:54) - API Response for A233 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 1817134449
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f9b0ccdc3835d8-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 01:24:20 GMT
+  Set-Cookie: __cfduid=dcf401af5ae4b4c71b715d4a54e76baf21537838660; expires=Wed, 25-Sep-19 01:24:20 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [02:24:21,186] (ApiRequestProcessor:79) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T01:23:53.8042903Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A233","message":"The following road id is not recognised: A233"}
+ INFO [02:24:21,197] (Program:41) - Application returned code: 1
+ INFO [02:24:37,204] (Program:28) - Application started successfully
+ INFO [02:24:37,218] (Program:41) - Application returned code: 2
+ INFO [22:49:23,294] (Program:26) - Application started successfully
+ INFO [22:49:24,258] (ApiRequestProcessor:54) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 184
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 3
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 2201702764 2201656277
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600b351ac58bc62-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 21:49:24 GMT
+  Set-Cookie: __cfduid=d98ed97febcdae0d6e3015faf2ea35ced1537912164; expires=Wed, 25-Sep-19 21:49:24 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [22:49:24,261] (ApiRequestProcessor:62) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [22:49:24,459] (Program:39) - Application returned code: 0
+ INFO [22:49:30,608] (Program:26) - Application started successfully
+ INFO [22:49:30,954] (ApiRequestProcessor:54) - API Response for A233 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 2201704404
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600b37ad99d3446-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 21:49:30 GMT
+  Set-Cookie: __cfduid=da6aae7426f423f7c564f4e7241bc50601537912170; expires=Wed, 25-Sep-19 21:49:30 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [22:49:30,957] (ApiRequestProcessor:79) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T21:49:25.1256401Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A233","message":"The following road id is not recognised: A233"}
+ INFO [22:49:30,968] (Program:39) - Application returned code: 1
+ INFO [22:49:34,231] (Program:26) - Application started successfully
+ INFO [22:49:34,505] (ApiRequestProcessor:54) - API Response for A223 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 481053237
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600b3915fcdbc38-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 21:49:34 GMT
+  Set-Cookie: __cfduid=d200437648737e114c9e8b14373988bf41537912174; expires=Wed, 25-Sep-19 21:49:34 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [22:49:34,508] (ApiRequestProcessor:79) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T21:49:28.6949209Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A223","message":"The following road id is not recognised: A223"}
+ INFO [22:49:34,519] (Program:39) - Application returned code: 1
+ INFO [22:49:38,887] (Program:26) - Application started successfully
+ INFO [22:49:38,901] (Program:39) - Application returned code: 2
+ INFO [22:49:48,683] (Program:26) - Application started successfully
+ INFO [22:49:48,996] (ApiRequestProcessor:54) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 209
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 4
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 2201708537 2201656277
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600b3ec0abbbc68-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 21:49:48 GMT
+  Set-Cookie: __cfduid=d87c9883cc8488f6aee7c8fadf7db6f6c1537912188; expires=Wed, 25-Sep-19 21:49:48 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [22:49:48,998] (ApiRequestProcessor:62) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [22:49:49,152] (Program:39) - Application returned code: 0
+ INFO [22:50:05,753] (Program:26) - Application started successfully
+ INFO [22:50:06,088] (ApiRequestProcessor:54) - API Response for A223 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 2201712645
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600b456ba446b61-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 21:50:05 GMT
+  Set-Cookie: __cfduid=d3e7ce1ad83bb8efb2921369ab70ec3671537912205; expires=Wed, 25-Sep-19 21:50:05 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [22:50:06,090] (ApiRequestProcessor:79) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T21:50:00.2491275Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A223","message":"The following road id is not recognised: A223"}
+ INFO [22:50:06,101] (Program:39) - Application returned code: 1
+ INFO [22:50:15,440] (Program:26) - Application started successfully
+ INFO [22:50:15,455] (Program:39) - Application returned code: 2
+ INFO [23:05:58,800] (Program:26) - Application started successfully
+ INFO [23:05:58,819] (Program:39) - Application returned code: 2
+ INFO [23:11:05,620] (Program:26) - Application started successfully
+ INFO [23:11:05,920] (ApiRequestProcessor:54) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 36
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1969067502 1969060034
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600d3188a5ebba2-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 22:11:05 GMT
+  Set-Cookie: __cfduid=df14d084a57dd3c6c23ac6eead4f34a681537913465; expires=Wed, 25-Sep-19 22:11:05 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [23:11:05,922] (ApiRequestProcessor:62) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [23:11:06,080] (Program:39) - Application returned code: 0
+ INFO [23:24:57,590] (Program:26) - Application started successfully
+ INFO [23:24:57,613] (Program:39) - Application returned code: 2
+ INFO [23:25:02,911] (Program:26) - Application started successfully
+ INFO [23:25:03,192] (ApiRequestProcessor:54) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 2202199894
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600e789e88cbc50-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 22:25:03 GMT
+  Set-Cookie: __cfduid=d557cdff6ebb02b00897340878881b3b91537914303; expires=Wed, 25-Sep-19 22:25:03 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [23:25:03,194] (ApiRequestProcessor:62) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [23:25:03,348] (Program:39) - Application returned code: 0
+ INFO [23:25:06,576] (Program:26) - Application started successfully
+ INFO [23:25:06,829] (ApiRequestProcessor:54) - API Response for A233 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 1969253960
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600e7a06bd03560-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 22:25:06 GMT
+  Set-Cookie: __cfduid=d6a4f27222e732b81bc4ec683b8afb97e1537914306; expires=Wed, 25-Sep-19 22:25:06 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [23:25:06,831] (ApiRequestProcessor:79) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T22:25:01.0065518Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A233","message":"The following road id is not recognised: A233"}
+ INFO [23:25:06,843] (Program:39) - Application returned code: 1
+ INFO [23:25:10,717] (Program:26) - Application started successfully
+ INFO [23:25:10,732] (Program:39) - Application returned code: 2
+ INFO [23:25:21,595] (Program:26) - Application started successfully
+ INFO [23:25:21,806] (ApiRequestProcessor:54) - API Response for A233 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 2202204158
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600e7fe4fd4bba2-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 22:25:21 GMT
+  Set-Cookie: __cfduid=dec58c2c0d34b8238dc3e6317b92ab2b81537914321; expires=Wed, 25-Sep-19 22:25:21 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [23:25:21,808] (ApiRequestProcessor:79) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T22:25:15.8663758Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A233","message":"The following road id is not recognised: A233"}
+ INFO [23:25:21,821] (Program:39) - Application returned code: 1
+ INFO [23:25:29,028] (Program:26) - Application started successfully
+ INFO [23:25:29,328] (ApiRequestProcessor:54) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1969259031
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600e82d5e8a6b91-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Tue, 25 Sep 2018 22:25:29 GMT
+  Set-Cookie: __cfduid=d60b1a99b42d0e23215e4fcbafc47bcaa1537914329; expires=Wed, 25-Sep-19 22:25:29 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [23:25:29,330] (ApiRequestProcessor:62) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [23:25:29,480] (Program:39) - Application returned code: 0
+ INFO [23:31:43,062] (Program:26) - Application started successfully
+ INFO [23:31:43,292] (ApiRequestProcessor:54) - API Response for A223 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 1969339330
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600f14e988c356c-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 22:31:43 GMT
+  Set-Cookie: __cfduid=dea2c2be966b51c284e0419b7bee67e0e1537914703; expires=Wed, 25-Sep-19 22:31:43 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [23:31:43,294] (ApiRequestProcessor:79) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T22:31:37.346307Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A223","message":"The following road id is not recognised: A223"}
+ INFO [23:31:43,306] (Program:39) - Application returned code: 1
+ INFO [23:31:53,155] (Program:26) - Application started successfully
+ INFO [23:31:53,174] (Program:39) - Application returned code: 2
+ INFO [23:33:35,594] (Program:26) - Application started successfully
+ INFO [23:33:36,902] (ApiRequestProcessor:54) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 0
+  x-amz-id-2: 4r0IypklwEpk7LjwAIMjPu5UxLNdrcAPxSJdqMOjRCwBDoZIrjLjQuC/SKcv5LkMwy7UFiMkiPo=
+  x-amz-request-id: 86CAA63839C48096
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1969362394
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4600f4145e0e34ee-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Tue, 25 Sep 2018 22:33:36 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ INFO [23:33:36,904] (ApiRequestProcessor:62) - API Response Content: <!DOCTYPE html>
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<title>Technical Error - Transport for London</title>
+<meta content="text/html; charset=UTF-8" http-equiv"=Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<meta content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.tfl.gov.uk" r (nz 1 vz 1 lz 1 oz 1 cz 1))' http-equiv="pics-label">
+<meta name="DC.language" content="eng">
+<meta name="DC.coverage" content="UK; United Kingdom">
+<meta name="DC.creator" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.publisher" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.rights.copyright" content="http://www.tfl.gov.uk/tfl/tandc.shtml">
+<meta name="DC.subject" content="Public transport">
+<script type="text/javascript">
+            var h = document.documentElement; h.className = h.className.replace(/\bno-js\b/, '');
+        </script>
+<link href="small.css" media="screen" rel="stylesheet">
+<link href="medium.css" media="screen and (min-width: 580px)" rel="stylesheet">
+<link href="large.css" media="screen and (min-width: 900px)" rel="stylesheet">
+<!--[if lt IE 9]>
+        <link href="medium.css" rel="stylesheet">
+        <link href="large.css" rel="stylesheet">
+        <link href="ie.css" rel="stylesheet">
+        <![endif]-->
+</head>
+<body>
+<div id="container">
+<div class="mainnav" id="mainnav">
+<div class="top-row"><div class="r"><div class="logo"><span class="main-roundel">&nbsp;</span><span class="tfl-name">Transport<br>for London</span></div></div></div>
+</div>
+<div id="full-width-content">
+<div class="r">
+<div class="headline-container content-page">
+<h1>Sorry, this service is unavailable</h1>
+</div>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div id="error-window">
+<div id="error-container">
+<div id="error-clouds">
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+</div>
+<div id="error-bus"></div>
+<div id="digger-arm-1">
+<div id="digger-arm-2"></div>
+</div>
+</div>
+</div>
+<div class="r">
+<h3><br />Your authentication credentials were missing or incorrect</h3>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div>
+<p>To access our feeds you must have a valid application ID and key.</p>
+<p>You can sign up for an authentication key on our <a href=https://api-portal.tfl.gov.uk>developers portal</a>.</p>
+</div>
+</div>
+</div>
+ </div>
+</div>
+<div class="aside">
+<h3>Contact Customer Services</h3>
+<div class="contact-info-box">
+<div class="content-group">
+<h4>TfL Customer services</h4>
+<p><span class="hide-text icon mail-icon">Phone details</span>4th floor,<br>14
+Pier Walk,<br>London, SE10 0ES.</p>
+</div>
+<p class="content-group"><span class="hide-text icon phone-icon">Phone details</span><abbr title="Telephone number">T</abbr>: 0343 222 1234<br><abbr title="Fax number">F</abbr>: 020 7363 9561</p>
+<p class="content-group"><span class="hide-text icon email-icon">Email address</span><a href="/cdn-cgi/l/email-protection#482b27263c292b3c083c2e24662f273e663d23"><span class="__cf_email__" data-cfemail="84e7ebeaf0e5e7f0c4f0e2e8aae3ebf2aaf1ef">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+ERROR [23:33:36,964] (ApiRequestProcessor:92) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.. 
+                    Server response <!DOCTYPE html>
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<title>Technical Error - Transport for London</title>
+<meta content="text/html; charset=UTF-8" http-equiv"=Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<meta content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.tfl.gov.uk" r (nz 1 vz 1 lz 1 oz 1 cz 1))' http-equiv="pics-label">
+<meta name="DC.language" content="eng">
+<meta name="DC.coverage" content="UK; United Kingdom">
+<meta name="DC.creator" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.publisher" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.rights.copyright" content="http://www.tfl.gov.uk/tfl/tandc.shtml">
+<meta name="DC.subject" content="Public transport">
+<script type="text/javascript">
+            var h = document.documentElement; h.className = h.className.replace(/\bno-js\b/, '');
+        </script>
+<link href="small.css" media="screen" rel="stylesheet">
+<link href="medium.css" media="screen and (min-width: 580px)" rel="stylesheet">
+<link href="large.css" media="screen and (min-width: 900px)" rel="stylesheet">
+<!--[if lt IE 9]>
+        <link href="medium.css" rel="stylesheet">
+        <link href="large.css" rel="stylesheet">
+        <link href="ie.css" rel="stylesheet">
+        <![endif]-->
+</head>
+<body>
+<div id="container">
+<div class="mainnav" id="mainnav">
+<div class="top-row"><div class="r"><div class="logo"><span class="main-roundel">&nbsp;</span><span class="tfl-name">Transport<br>for London</span></div></div></div>
+</div>
+<div id="full-width-content">
+<div class="r">
+<div class="headline-container content-page">
+<h1>Sorry, this service is unavailable</h1>
+</div>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div id="error-window">
+<div id="error-container">
+<div id="error-clouds">
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+</div>
+<div id="error-bus"></div>
+<div id="digger-arm-1">
+<div id="digger-arm-2"></div>
+</div>
+</div>
+</div>
+<div class="r">
+<h3><br />Your authentication credentials were missing or incorrect</h3>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div>
+<p>To access our feeds you must have a valid application ID and key.</p>
+<p>You can sign up for an authentication key on our <a href=https://api-portal.tfl.gov.uk>developers portal</a>.</p>
+</div>
+</div>
+</div>
+ </div>
+</div>
+<div class="aside">
+<h3>Contact Customer Services</h3>
+<div class="contact-info-box">
+<div class="content-group">
+<h4>TfL Customer services</h4>
+<p><span class="hide-text icon mail-icon">Phone details</span>4th floor,<br>14
+Pier Walk,<br>London, SE10 0ES.</p>
+</div>
+<p class="content-group"><span class="hide-text icon phone-icon">Phone details</span><abbr title="Telephone number">T</abbr>: 0343 222 1234<br><abbr title="Fax number">F</abbr>: 020 7363 9561</p>
+<p class="content-group"><span class="hide-text icon email-icon">Email address</span><a href="/cdn-cgi/l/email-protection#482b27263c292b3c083c2e24662f273e663d23"><span class="__cf_email__" data-cfemail="84e7ebeaf0e5e7f0c4f0e2e8aae3ebf2aaf1ef">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 64
+ INFO [23:33:37,032] (Program:39) - Application returned code: 4
+ INFO [23:41:51,920] (Program:26) - Application started successfully
+ INFO [23:41:53,341] (ApiRequestProcessor:54) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 0
+  x-amz-id-2: D3Ad9PwC+dsU3aMp3qENo3Ncb5X03+UeuQhTDx1j53a/Ly43OcHBmTy/mar9t67kiCV3z/gXJrQ=
+  x-amz-request-id: 8D5879CE008441E8
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 2202413121
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 460100331c21354e-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Tue, 25 Sep 2018 22:41:53 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ INFO [23:41:53,343] (ApiRequestProcessor:62) - API Response Content: <!DOCTYPE html>
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<title>Technical Error - Transport for London</title>
+<meta content="text/html; charset=UTF-8" http-equiv"=Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<meta content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.tfl.gov.uk" r (nz 1 vz 1 lz 1 oz 1 cz 1))' http-equiv="pics-label">
+<meta name="DC.language" content="eng">
+<meta name="DC.coverage" content="UK; United Kingdom">
+<meta name="DC.creator" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.publisher" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.rights.copyright" content="http://www.tfl.gov.uk/tfl/tandc.shtml">
+<meta name="DC.subject" content="Public transport">
+<script type="text/javascript">
+            var h = document.documentElement; h.className = h.className.replace(/\bno-js\b/, '');
+        </script>
+<link href="small.css" media="screen" rel="stylesheet">
+<link href="medium.css" media="screen and (min-width: 580px)" rel="stylesheet">
+<link href="large.css" media="screen and (min-width: 900px)" rel="stylesheet">
+<!--[if lt IE 9]>
+        <link href="medium.css" rel="stylesheet">
+        <link href="large.css" rel="stylesheet">
+        <link href="ie.css" rel="stylesheet">
+        <![endif]-->
+</head>
+<body>
+<div id="container">
+<div class="mainnav" id="mainnav">
+<div class="top-row"><div class="r"><div class="logo"><span class="main-roundel">&nbsp;</span><span class="tfl-name">Transport<br>for London</span></div></div></div>
+</div>
+<div id="full-width-content">
+<div class="r">
+<div class="headline-container content-page">
+<h1>Sorry, this service is unavailable</h1>
+</div>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div id="error-window">
+<div id="error-container">
+<div id="error-clouds">
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+</div>
+<div id="error-bus"></div>
+<div id="digger-arm-1">
+<div id="digger-arm-2"></div>
+</div>
+</div>
+</div>
+<div class="r">
+<h3><br />Your authentication credentials were missing or incorrect</h3>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div>
+<p>To access our feeds you must have a valid application ID and key.</p>
+<p>You can sign up for an authentication key on our <a href=https://api-portal.tfl.gov.uk>developers portal</a>.</p>
+</div>
+</div>
+</div>
+ </div>
+</div>
+<div class="aside">
+<h3>Contact Customer Services</h3>
+<div class="contact-info-box">
+<div class="content-group">
+<h4>TfL Customer services</h4>
+<p><span class="hide-text icon mail-icon">Phone details</span>4th floor,<br>14
+Pier Walk,<br>London, SE10 0ES.</p>
+</div>
+<p class="content-group"><span class="hide-text icon phone-icon">Phone details</span><abbr title="Telephone number">T</abbr>: 0343 222 1234<br><abbr title="Fax number">F</abbr>: 020 7363 9561</p>
+<p class="content-group"><span class="hide-text icon email-icon">Email address</span><a href="/cdn-cgi/l/email-protection#a0c3cfced4c1c3d4e0d4c6cc8ec7cfd68ed5cb"><span class="__cf_email__" data-cfemail="96f5f9f8e2f7f5e2d6e2f0fab8f1f9e0b8e3fd">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+ERROR [23:41:53,405] (ApiRequestProcessor:92) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.. 
+                    Server response <!DOCTYPE html>
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<title>Technical Error - Transport for London</title>
+<meta content="text/html; charset=UTF-8" http-equiv"=Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<meta content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.tfl.gov.uk" r (nz 1 vz 1 lz 1 oz 1 cz 1))' http-equiv="pics-label">
+<meta name="DC.language" content="eng">
+<meta name="DC.coverage" content="UK; United Kingdom">
+<meta name="DC.creator" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.publisher" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.rights.copyright" content="http://www.tfl.gov.uk/tfl/tandc.shtml">
+<meta name="DC.subject" content="Public transport">
+<script type="text/javascript">
+            var h = document.documentElement; h.className = h.className.replace(/\bno-js\b/, '');
+        </script>
+<link href="small.css" media="screen" rel="stylesheet">
+<link href="medium.css" media="screen and (min-width: 580px)" rel="stylesheet">
+<link href="large.css" media="screen and (min-width: 900px)" rel="stylesheet">
+<!--[if lt IE 9]>
+        <link href="medium.css" rel="stylesheet">
+        <link href="large.css" rel="stylesheet">
+        <link href="ie.css" rel="stylesheet">
+        <![endif]-->
+</head>
+<body>
+<div id="container">
+<div class="mainnav" id="mainnav">
+<div class="top-row"><div class="r"><div class="logo"><span class="main-roundel">&nbsp;</span><span class="tfl-name">Transport<br>for London</span></div></div></div>
+</div>
+<div id="full-width-content">
+<div class="r">
+<div class="headline-container content-page">
+<h1>Sorry, this service is unavailable</h1>
+</div>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div id="error-window">
+<div id="error-container">
+<div id="error-clouds">
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+</div>
+<div id="error-bus"></div>
+<div id="digger-arm-1">
+<div id="digger-arm-2"></div>
+</div>
+</div>
+</div>
+<div class="r">
+<h3><br />Your authentication credentials were missing or incorrect</h3>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div>
+<p>To access our feeds you must have a valid application ID and key.</p>
+<p>You can sign up for an authentication key on our <a href=https://api-portal.tfl.gov.uk>developers portal</a>.</p>
+</div>
+</div>
+</div>
+ </div>
+</div>
+<div class="aside">
+<h3>Contact Customer Services</h3>
+<div class="contact-info-box">
+<div class="content-group">
+<h4>TfL Customer services</h4>
+<p><span class="hide-text icon mail-icon">Phone details</span>4th floor,<br>14
+Pier Walk,<br>London, SE10 0ES.</p>
+</div>
+<p class="content-group"><span class="hide-text icon phone-icon">Phone details</span><abbr title="Telephone number">T</abbr>: 0343 222 1234<br><abbr title="Fax number">F</abbr>: 020 7363 9561</p>
+<p class="content-group"><span class="hide-text icon email-icon">Email address</span><a href="/cdn-cgi/l/email-protection#a0c3cfced4c1c3d4e0d4c6cc8ec7cfd68ed5cb"><span class="__cf_email__" data-cfemail="96f5f9f8e2f7f5e2d6e2f0fab8f1f9e0b8e3fd">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 64
+ INFO [23:41:53,476] (Program:39) - Application returned code: 4
+ INFO [23:42:49,673] (Program:26) - Application started successfully
+ INFO [23:42:50,898] (ApiRequestProcessor:54) - API Response for A223 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 481801223
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 460101955b5e356c-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 22:42:50 GMT
+  Set-Cookie: __cfduid=d65023cf1e6b09c137980abdfaa3b17811537915369; expires=Wed, 25-Sep-19 22:42:49 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [23:42:50,901] (ApiRequestProcessor:79) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T22:42:44.9749887Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A223","message":"The following road id is not recognised: A223"}
+ INFO [23:42:50,912] (Program:39) - Application returned code: 1
+ INFO [23:43:15,326] (Program:26) - Application started successfully
+ INFO [23:43:15,619] (ApiRequestProcessor:54) - API Response for A456 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 481805920
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 4601023588bf6b91-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Tue, 25 Sep 2018 22:43:15 GMT
+  Set-Cookie: __cfduid=d018d3096ea6fdf633b9ec283f020dfa41537915395; expires=Wed, 25-Sep-19 22:43:15 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [23:43:15,621] (ApiRequestProcessor:79) - API Response Content: {"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2018-09-25T22:43:09.7532893Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A456","message":"The following road id is not recognised: A456"}
+ INFO [23:43:15,633] (Program:39) - Application returned code: 1
+ INFO [23:47:50,683] (Program:26) - Application started successfully
+ INFO [23:47:50,697] (Program:39) - Application returned code: 2

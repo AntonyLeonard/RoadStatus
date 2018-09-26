@@ -1,0 +1,1298 @@
+DEBUG [00:07:29,724] (Program:21) - Application returned code: 
+DEBUG [00:08:25,984] (Program:21) - Application returned code: 0
+ INFO [00:24:18,485] (ApiRequestProcessor:42) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 881571761
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f0c3973bf3355a-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Sun, 23 Sep 2018 23:24:18 GMT
+  Set-Cookie: __cfduid=d05af29cfd02c124de5c7c246af29aefd1537745058; expires=Mon, 23-Sep-19 23:24:18 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [00:24:19,614] (Program:21) - Application returned code: 0
+ INFO [00:25:28,202] (ApiRequestProcessor:42) - API Response for A2452 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 1384542459
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f0c5487a21356c-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Sun, 23 Sep 2018 23:25:28 GMT
+  Set-Cookie: __cfduid=da41f6cc7c8c78c4dbb1af09642561bd71537745127; expires=Mon, 23-Sep-19 23:25:27 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [00:25:28,254] (Program:21) - Application returned code: 1
+ INFO [00:28:43,726] (ApiRequestProcessor:42) - API Response for A2452 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 783
+  x-amz-id-2: 8DQaFuX5xUetV5m9p8TAIu4dM3oBpUmZQlENFSrkQeX9jgXs+qmQCdwGoqikPRdRaKU+10eKIc0=
+  x-amz-request-id: 8A3ABECD3789F8E1
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 3
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1790450590 1790346929
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f0ca110be23578-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Sun, 23 Sep 2018 23:28:43 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [00:28:43,867] (ApiRequestProcessor:71) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 48
+ INFO [00:28:43,877] (Program:21) - Application returned code: 3
+ INFO [22:51:37,115] (Program:19) - Application started successfully
+ INFO [22:51:37,924] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 330
+  x-amz-id-2: eoOaENIboNVRUaNT9Vk7QTPKHtXg24qeFDtDTEirAJkjMihAcfYBsV5XMtPML0v++kfs695kDXA=
+  x-amz-request-id: 097EF8EA467CE025
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 2
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815077113 1815006281
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f879326cf06a79-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 21:51:37 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [22:51:37,978] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [22:51:37,981] (Program:27) - Application returned code: 2
+ INFO [22:55:43,426] (Program:19) - Application started successfully
+ INFO [22:55:44,618] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 443
+  x-amz-id-2: Vb72l6QBo+JGBe4/UHzqzUWIej+hG1fSbbQBMX4HXXarxDcYW35Vqfpxy0DM6YERWePKAYYgraU=
+  x-amz-request-id: 7C74740F0CB33658
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1409681446 1409574459
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f87f383ada6ba3-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 21:55:44 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [22:55:44,670] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [22:55:44,672] (Program:27) - Application returned code: 2
+ INFO [23:03:20,269] (Program:19) - Application started successfully
+ INFO [23:03:21,905] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 1034
+  x-amz-id-2: eoOaENIboNVRUaNT9Vk7QTPKHtXg24qeFDtDTEirAJkjMihAcfYBsV5XMtPML0v++kfs695kDXA=
+  x-amz-request-id: 097EF8EA467CE025
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 3
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815227426 1815006281
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f88a622efd344c-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:03:21 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:03:21,959] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:03:21,961] (Program:27) - Application returned code: 2
+ INFO [23:03:27,340] (Program:19) - Application started successfully
+ INFO [23:03:27,600] (ApiRequestProcessor:43) - API Response for A24785 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 1040
+  x-amz-id-2: eoOaENIboNVRUaNT9Vk7QTPKHtXg24qeFDtDTEirAJkjMihAcfYBsV5XMtPML0v++kfs695kDXA=
+  x-amz-request-id: 097EF8EA467CE025
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 4
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815228532 1815006281
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f88a85db2a344c-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:03:27 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:03:27,653] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:03:27,656] (Program:27) - Application returned code: 2
+ INFO [23:03:43,860] (Program:19) - Application started successfully
+ INFO [23:03:46,735] (ApiRequestProcessor:43) - API Response for A24785 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 142
+  x-amz-id-2: N0N5xJmzW2+VvQMBpRbHqecZ/ki0qkSJlYAQn66IJgtBsQQp4/rGgxadlpzS6NjFP5au3CEty9A=
+  x-amz-request-id: 361F58DA37542B0F
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 2
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 906109648 906070261
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f88afd5a28bc44-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:03:46 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:03:46,791] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:03:46,793] (Program:27) - Application returned code: 2
+ INFO [23:06:48,288] (Program:19) - Application started successfully
+ INFO [23:06:49,030] (ApiRequestProcessor:43) - API Response for A24785 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 1107
+  x-amz-id-2: Vb72l6QBo+JGBe4/UHzqzUWIej+hG1fSbbQBMX4HXXarxDcYW35Vqfpxy0DM6YERWePKAYYgraU=
+  x-amz-request-id: 7C74740F0CB33658
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 2
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1409838445 1409574459
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f88f70cddc3452-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:06:48 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:06:49,085] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:06:49,087] (Program:27) - Application returned code: 2
+ INFO [23:06:51,140] (Program:19) - Application started successfully
+ INFO [23:06:51,366] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 1110
+  x-amz-id-2: Vb72l6QBo+JGBe4/UHzqzUWIej+hG1fSbbQBMX4HXXarxDcYW35Vqfpxy0DM6YERWePKAYYgraU=
+  x-amz-request-id: 7C74740F0CB33658
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 3
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1409838939 1409574459
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f88f7f58206ba3-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:06:50 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:06:51,420] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:06:51,422] (Program:27) - Application returned code: 2
+ INFO [23:08:12,442] (Program:19) - Application started successfully
+ INFO [23:08:12,894] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 1191
+  x-amz-id-2: Vb72l6QBo+JGBe4/UHzqzUWIej+hG1fSbbQBMX4HXXarxDcYW35Vqfpxy0DM6YERWePKAYYgraU=
+  x-amz-request-id: 7C74740F0CB33658
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 4
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1409857116 1409574459
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8917cff4e6a01-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:08:12 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:08:12,951] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:08:12,953] (Program:27) - Application returned code: 2
+ INFO [23:13:45,424] (Program:19) - Application started successfully
+ INFO [23:13:46,190] (ApiRequestProcessor:43) - API Response for A2456 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 742
+  x-amz-id-2: N0N5xJmzW2+VvQMBpRbHqecZ/ki0qkSJlYAQn66IJgtBsQQp4/rGgxadlpzS6NjFP5au3CEty9A=
+  x-amz-request-id: 361F58DA37542B0F
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 3
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 906254576 906070261
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8999fffa1bc56-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:13:45 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:13:46,249] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:13:46,251] (Program:27) - Application returned code: 2
+ INFO [23:13:50,850] (Program:19) - Application started successfully
+ INFO [23:13:52,849] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 1665
+  x-amz-id-2: eoOaENIboNVRUaNT9Vk7QTPKHtXg24qeFDtDTEirAJkjMihAcfYBsV5XMtPML0v++kfs695kDXA=
+  x-amz-request-id: 097EF8EA467CE025
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 6
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815355060 1815006281
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f899c9aafcbc62-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:13:52 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:13:52,915] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:13:52,917] (Program:27) - Application returned code: 2
+ INFO [23:15:27,892] (Program:19) - Application started successfully
+ INFO [23:15:28,679] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 1761
+  x-amz-id-2: eoOaENIboNVRUaNT9Vk7QTPKHtXg24qeFDtDTEirAJkjMihAcfYBsV5XMtPML0v++kfs695kDXA=
+  x-amz-request-id: 097EF8EA467CE025
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 7
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815374580 1815006281
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f89c209c8dbc68-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:15:28 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:15:28,733] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:15:28,736] (Program:27) - Application returned code: 2
+ INFO [23:16:08,869] (Program:19) - Application started successfully
+ INFO [23:16:11,157] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 0
+  x-amz-id-2: whongqhqu80FhISRL6bDTfOSUeaOSlRn6GN80GrYD6mWfpEVTyPmIg6yaOkFN9k4G67bbHyUv/8=
+  x-amz-request-id: 237B69E9F892CCEA
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815382609
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f89d29afd36b61-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:16:10 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:16:11,212] (ApiRequestProcessor:72) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:16:11,214] (Program:27) - Application returned code: 2
+ INFO [23:22:19,360] (Program:19) - Application started successfully
+ INFO [23:22:20,245] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 0
+  x-amz-id-2: 9D1lcyzydgHFbNdK5osYgX3TI7o23d81VLXsk9XP+k70OPLyytBLUPBfH7DS7irQ4FfJ7YWJeLw=
+  x-amz-request-id: 89ECC03764A110B7
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1410037565
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8a62c880f34ee-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:22:19 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:22:20,300] (ApiRequestProcessor:75) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:23:38,378] (Program:19) - Application started successfully
+ INFO [23:23:39,496] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 448
+  x-amz-id-2: whongqhqu80FhISRL6bDTfOSUeaOSlRn6GN80GrYD6mWfpEVTyPmIg6yaOkFN9k4G67bbHyUv/8=
+  x-amz-request-id: 237B69E9F892CCEA
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815474614 1815382609
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8a81c3f586ab5-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:23:38 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:23:39,557] (ApiRequestProcessor:75) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:24:05,456] (Program:19) - Application started successfully
+ INFO [23:24:07,352] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 476
+  x-amz-id-2: whongqhqu80FhISRL6bDTfOSUeaOSlRn6GN80GrYD6mWfpEVTyPmIg6yaOkFN9k4G67bbHyUv/8=
+  x-amz-request-id: 237B69E9F892CCEA
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 2
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815480060 1815382609
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8a8ca0ae66b8b-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:24:06 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:24:07,408] (ApiRequestProcessor:75) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:24:18,018] (Program:19) - Application started successfully
+ INFO [23:24:18,276] (ApiRequestProcessor:43) - API Response for A2452 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 487
+  x-amz-id-2: whongqhqu80FhISRL6bDTfOSUeaOSlRn6GN80GrYD6mWfpEVTyPmIg6yaOkFN9k4G67bbHyUv/8=
+  x-amz-request-id: 237B69E9F892CCEA
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 3
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815482079 1815382609
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8a90e89a56b8b-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:24:17 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:24:18,330] (ApiRequestProcessor:75) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:25:19,692] (Program:19) - Application started successfully
+ INFO [23:25:20,509] (ApiRequestProcessor:43) - API Response for A2452 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 549
+  x-amz-id-2: whongqhqu80FhISRL6bDTfOSUeaOSlRn6GN80GrYD6mWfpEVTyPmIg6yaOkFN9k4G67bbHyUv/8=
+  x-amz-request-id: 237B69E9F892CCEA
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 4
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815495560 1815382609
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8aa939b056b5b-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:25:19 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:25:20,569] (ApiRequestProcessor:75) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:25:20,572] (Program:27) - Application returned code: 2
+ INFO [23:25:39,296] (Program:19) - Application started successfully
+ INFO [23:25:40,454] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 569
+  x-amz-id-2: whongqhqu80FhISRL6bDTfOSUeaOSlRn6GN80GrYD6mWfpEVTyPmIg6yaOkFN9k4G67bbHyUv/8=
+  x-amz-request-id: 237B69E9F892CCEA
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 5
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815499999 1815382609
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8ab1038d46b55-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:25:39 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:25:40,516] (ApiRequestProcessor:75) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:25:40,522] (Program:27) - Application returned code: 2
+ INFO [23:33:11,314] (Program:19) - Application started successfully
+ INFO [23:33:12,143] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 1021
+  x-amz-id-2: whongqhqu80FhISRL6bDTfOSUeaOSlRn6GN80GrYD6mWfpEVTyPmIg6yaOkFN9k4G67bbHyUv/8=
+  x-amz-request-id: 237B69E9F892CCEA
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 6
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815591070 1815382609
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8b6174a86bc4a-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:33:11 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:33:12,199] (ApiRequestProcessor:75) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:33:12,203] (Program:27) - Application returned code: 2
+ INFO [23:33:24,396] (Program:19) - Application started successfully
+ INFO [23:33:25,686] (ApiRequestProcessor:43) - API Response for A2452 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 665
+  x-amz-id-2: 9D1lcyzydgHFbNdK5osYgX3TI7o23d81VLXsk9XP+k70OPLyytBLUPBfH7DS7irQ4FfJ7YWJeLw=
+  x-amz-request-id: 89ECC03764A110B7
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 2
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1410166537 1410037565
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8b66bf8cebc5c-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:33:25 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:33:25,740] (ApiRequestProcessor:75) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 49
+ INFO [23:33:25,744] (Program:27) - Application returned code: 2
+ INFO [23:34:04,251] (Program:19) - Application started successfully
+ INFO [23:34:04,833] (ApiRequestProcessor:94) - API Response for A2452 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 705
+  x-amz-id-2: 9D1lcyzydgHFbNdK5osYgX3TI7o23d81VLXsk9XP+k70OPLyytBLUPBfH7DS7irQ4FfJ7YWJeLw=
+  x-amz-request-id: 89ECC03764A110B7
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 3
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1410173492 1410037565
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8b76088c8bc44-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:34:04 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:34:04,898] (ApiRequestProcessor:123) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest1(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 100
+ INFO [23:34:04,900] (Program:27) - Application returned code: 2
+ INFO [23:34:08,977] (Program:19) - Application started successfully
+ INFO [23:34:09,219] (ApiRequestProcessor:94) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 709
+  x-amz-id-2: 9D1lcyzydgHFbNdK5osYgX3TI7o23d81VLXsk9XP+k70OPLyytBLUPBfH7DS7irQ4FfJ7YWJeLw=
+  x-amz-request-id: 89ECC03764A110B7
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 4
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1410174215 1410037565
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8b77c08973446-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:34:08 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:34:09,280] (ApiRequestProcessor:123) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest1(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 100
+ INFO [23:34:09,282] (Program:27) - Application returned code: 2
+ INFO [23:45:10,810] (Program:19) - Application started successfully
+ INFO [23:45:12,277] (ApiRequestProcessor:96) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 1741
+  x-amz-id-2: whongqhqu80FhISRL6bDTfOSUeaOSlRn6GN80GrYD6mWfpEVTyPmIg6yaOkFN9k4G67bbHyUv/8=
+  x-amz-request-id: 237B69E9F892CCEA
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 7
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815727703 1815382609
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8c7ac1a726b73-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:45:11 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ERROR [23:45:12,333] (ApiRequestProcessor:125) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest1(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 102
+ INFO [23:45:12,336] (Program:27) - Application returned code: 2
+ INFO [23:46:28,938] (Program:19) - Application started successfully
+ INFO [23:46:30,506] (ApiRequestProcessor:43) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 0
+  x-amz-id-2: QJ7i9Ilnt0rtMEVhbL7Qs1tqibcibFyC/VZ5ahJC0GzO3ljv2FJ0PvIWOa2wJQ+cbyMHHGpIEts=
+  x-amz-request-id: D2F1F3211B677D5A
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 906665573
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8c9902ca26b79-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:46:29 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ INFO [23:46:30,508] (ApiRequestProcessor:49) - API Response Content: 
+ERROR [23:46:30,561] (ApiRequestProcessor:77) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 51
+ INFO [23:46:30,564] (Program:27) - Application returned code: 2
+ INFO [23:48:49,285] (Program:19) - Application started successfully
+ INFO [23:48:50,063] (ApiRequestProcessor:45) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 140
+  x-amz-id-2: QJ7i9Ilnt0rtMEVhbL7Qs1tqibcibFyC/VZ5ahJC0GzO3ljv2FJ0PvIWOa2wJQ+cbyMHHGpIEts=
+  x-amz-request-id: D2F1F3211B677D5A
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 906693132 906665573
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8ccfd48c86b5b-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:48:49 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ INFO [23:48:50,065] (ApiRequestProcessor:51) - API Response Content: 
+ERROR [23:48:50,120] (ApiRequestProcessor:79) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 53
+ INFO [23:48:50,123] (Program:27) - Application returned code: 2
+ INFO [23:50:12,402] (Program:19) - Application started successfully
+ INFO [23:50:12,439] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad1&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [23:50:14,047] (ApiRequestProcessor:47) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Origin: *
+  Age: 0
+  x-amz-id-2: 2lTcu5a9+mtfPMfzvPMs3hVGJDMC/pb5M3NifZrpUVh8DjK6pbQ3lWWkoslUxpCvVh1bZ+PExQw=
+  x-amz-request-id: 2B5C438D7A533799
+  X-Backend: proxy
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-TTL: 1800.000
+  X-TTL-RULE: 11
+  X-Varnish: 1815784934
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8cf09a9066ab5-LHR
+  Cache-Control: , s-maxage=1800.000
+  Date: Mon, 24 Sep 2018 22:50:13 GMT
+  Server: cloudflare
+  Via: 1.1 varnish
+  Content-Type: text/html
+  Last-Modified: Thu, 08 Jan 2015 10:40:23 GMT
+}
+ INFO [23:50:14,048] (ApiRequestProcessor:53) - API Response Content: <!DOCTYPE html>
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<title>Technical Error - Transport for London</title>
+<meta content="text/html; charset=UTF-8" http-equiv"=Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<meta content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.tfl.gov.uk" r (nz 1 vz 1 lz 1 oz 1 cz 1))' http-equiv="pics-label">
+<meta name="DC.language" content="eng">
+<meta name="DC.coverage" content="UK; United Kingdom">
+<meta name="DC.creator" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.publisher" content="Transport for London, Windsor House, 42-50 Victoria Street, London SW1H 0TL, enquire@tfl.gov.uk">
+<meta name="DC.rights.copyright" content="http://www.tfl.gov.uk/tfl/tandc.shtml">
+<meta name="DC.subject" content="Public transport">
+<script type="text/javascript">
+            var h = document.documentElement; h.className = h.className.replace(/\bno-js\b/, '');
+        </script>
+<link href="small.css" media="screen" rel="stylesheet">
+<link href="medium.css" media="screen and (min-width: 580px)" rel="stylesheet">
+<link href="large.css" media="screen and (min-width: 900px)" rel="stylesheet">
+<!--[if lt IE 9]>
+        <link href="medium.css" rel="stylesheet">
+        <link href="large.css" rel="stylesheet">
+        <link href="ie.css" rel="stylesheet">
+        <![endif]-->
+</head>
+<body>
+<div id="container">
+<div class="mainnav" id="mainnav">
+<div class="top-row"><div class="r"><div class="logo"><span class="main-roundel">&nbsp;</span><span class="tfl-name">Transport<br>for London</span></div></div></div>
+</div>
+<div id="full-width-content">
+<div class="r">
+<div class="headline-container content-page">
+<h1>Sorry, this service is unavailable</h1>
+</div>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div id="error-window">
+<div id="error-container">
+<div id="error-clouds">
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+<div class="cloud-segment"></div>
+</div>
+<div id="error-bus"></div>
+<div id="digger-arm-1">
+<div id="digger-arm-2"></div>
+</div>
+</div>
+</div>
+<div class="r">
+<h3><br />Your authentication credentials were missing or incorrect</h3>
+</div>
+<div class="r">
+<div class="main">
+<div>
+<div>
+<p>To access our feeds you must have a valid application ID and key.</p>
+<p>You can sign up for an authentication key on our <a href=https://api-portal.tfl.gov.uk>developers portal</a>.</p>
+</div>
+</div>
+</div>
+ </div>
+</div>
+<div class="aside">
+<h3>Contact Customer Services</h3>
+<div class="contact-info-box">
+<div class="content-group">
+<h4>TfL Customer services</h4>
+<p><span class="hide-text icon mail-icon">Phone details</span>4th floor,<br>14
+Pier Walk,<br>London, SE10 0ES.</p>
+</div>
+<p class="content-group"><span class="hide-text icon phone-icon">Phone details</span><abbr title="Telephone number">T</abbr>: 0343 222 1234<br><abbr title="Fax number">F</abbr>: 020 7363 9561</p>
+<p class="content-group"><span class="hide-text icon email-icon">Email address</span><a href="/cdn-cgi/l/email-protection#f4979b9a80959780b4809298da939b82da819f"><span class="__cf_email__" data-cfemail="62010d0c160301162216040e4c050d144c1709">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+ERROR [23:50:14,100] (ApiRequestProcessor:81) - Error occured in ProcessRoadStatusRequest due to Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at RoadStatus.Engine.ApiRequestProcessor.ProcessRoadStatusRequest(String road) in c:\users\leona\source\repos\RoadStatus\RoadStatus\Engine\ApiRequestProcessor.cs:line 55
+ INFO [23:50:14,105] (Program:27) - Application returned code: 2
+ INFO [23:52:04,273] (Program:19) - Application started successfully
+ INFO [23:52:04,306] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [23:52:04,688] (ApiRequestProcessor:47) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: MISS
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1410380259
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8d1bc8fd46b5b-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 22:52:04 GMT
+  Set-Cookie: __cfduid=dcf751c6439a49ae4b899d839c8575e901537829523; expires=Tue, 24-Sep-19 22:52:03 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [23:52:04,689] (ApiRequestProcessor:53) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [23:52:05,050] (Program:27) - Application returned code: 0
+ INFO [23:54:52,184] (Program:19) - Application started successfully
+ INFO [23:54:52,220] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [23:54:52,732] (ApiRequestProcessor:47) - API Response for A2 is StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 168
+  Api-Entity-Payload: RoadCorridor
+  X-Backend: api
+  X-Banning: 
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Cacheable: Yes. Cacheable
+  X-Proxy-Connection: unset
+  X-TTL: 300.000
+  X-TTL-RULE: 0
+  X-Varnish: 1410410459 1410380259
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8d5d7febd6b5b-LHR
+  Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+  Date: Mon, 24 Sep 2018 22:54:52 GMT
+  Set-Cookie: __cfduid=d6406892438a3829c4c5717733a6c3faf1537829692; expires=Tue, 24-Sep-19 22:54:52 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+}
+ INFO [23:54:52,732] (ApiRequestProcessor:53) - API Response Content: [{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]
+ INFO [23:54:53,068] (Program:27) - Application returned code: 0
+ INFO [23:55:00,570] (Program:19) - Application started successfully
+ INFO [23:55:00,600] (ApiRequestProcessor:44) - URL: https://api.tfl.gov.uk/Road/A2452?app_id=7bf188ad&app_key=f053d33cb294718328a30b8c3a235d5f
+ INFO [23:55:25,205] (ApiRequestProcessor:47) - API Response for A2452 is StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+  Access-Control-Allow-Origin: *
+  Age: 0
+  Pragma: no-cache
+  x-backend: api
+  X-Banning: 
+  X-Cache: MISS
+  x-host: api.tfl.gov.uk
+  X-No-Smaxage: true
+  X-Proxy-Connection: unset
+  X-Request-404: true
+  X-TTL-RULE: 1
+  x-use-prev-req: 
+  X-Varnish: 1410411630
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  CF-RAY: 45f8d60a3e2a6abb-LHR
+  Cache-Control: must-revalidate, max-age=60, s-maxage=60
+  Date: Mon, 24 Sep 2018 22:55:24 GMT
+  Set-Cookie: __cfduid=db28c9776ad495fd2f3bda66baf01fd4a1537829700; expires=Tue, 24-Sep-19 22:55:00 GMT; path=/; domain=.tfl.gov.uk; HttpOnly
+  Server: cloudflare
+  Via: 1.1 varnish
+  X-AspNet-Version: 4.0.30319
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+}
+ INFO [23:55:25,215] (Program:27) - Application returned code: 1
