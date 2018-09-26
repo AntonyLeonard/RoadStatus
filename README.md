@@ -7,14 +7,14 @@ Open Visual Studio 2017 and open this project by selecting from menu File->Open-
 
 Navigate to the project folder and select the solution file (RoadStatus.sln). 
 
-Please add your ApiId and ApiKey in config file.
+<b>Please add your ApiId and ApiKey in config file.</b>
 
 Select Build -> Build Solution from menu or press F6.
 
 
 # How to run the output
 1)	DOS Command Prompt, VS Developer Command Prompt or Windows PowerShell can be used to run the output.
-2)	Open any one of the Command Prompts mentioned in step 1 and navigate to the project folder which contains executable program - RoadStatus.exe.
+2)	Open any one of the Command Prompts mentioned in step 1 and navigate to the project folder which contains executable program - <b>RoadStatus.exe.</b>
 3)	Execute the application by the following command
 
     * C:\..\RoadStatus\bin\Debug>RoadStatus.exe road - DOS and VS Developer Command Prompt
@@ -65,7 +65,7 @@ Select Build -> Build Solution from menu or press F6.
 In Visual Studio, all test cases of Test project “TestRoadStatus” can be run by simply selecting Test->Run->All Tests 
 from menu or pressing Ctrl + R + A. The outcome of all test results can be seen through Test Explorer in Visual Studio.
 
-Please add your ApiId and ApiKey in config file of test project before running the tests.
+<b>Please add your ApiId and ApiKey in config file of test project before running the tests.</b>
 
 
 # Assumptions
