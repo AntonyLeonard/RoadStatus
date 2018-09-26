@@ -14,27 +14,28 @@ Open Visual Studio 2017 and open this project by selecting from menu File->Open-
     *	C:\..\RoadStatus\bin\Debug>RoadStatus.exe road - DOS and VS Developer Command
     *	C:\..\RoadStatus\bin\Debug> .\RoadStatus.exe road – PowerShell
 
-     a)	This command displays output of the application. In the above command replace “road” with valid road name A2 as                         
+     a)	This command displays output of the application. In the above command replace “road” with valid road name A2 as                          follows 
+     
         * C:\..\RoadStatus\bin\Debug>RoadStatus.exe A2 
-        * Output
-         
+        
+        * Output         
          The status of the A2 is as follows
         	   Road Status is Good
         	   Road Status Description is No Exceptional Delays
 
      b)	Replace “road” with invalid road name A456 as C:\..\RoadStatus\bin\Debug> .\RoadStatus.exe A456
-         * Output
-          
+         
+         * Output          
           A456 is not a valid road.
 
      c)	For empty input
-         * Output
-          
+         
+         * Output          
           Input is invalid
 
      d)	In case of error
-         * Output
-          
+     
+         * Output          
           Error: Description of error. More detail from server response.
 
  4)	Enter the following command to check return code of the application
