@@ -59,12 +59,14 @@ namespace RoadStatus.Engine
                         _log.InfoFormat("API Response Content: {0}", result);
 
                         if (response.IsSuccessStatusCode)
-                        { 
+                        {
                             dynamic jsonArray = JsonConvert.DeserializeObject(result);
                             var json = jsonArray[0];
 
-                            strBuilder.AppendFormat("The status of the {0} is as follows\n\tRoad Status is {1}\n\tRoad Status Description is {2}",
-                                    json.displayName, json.statusSeverity, json.statusSeverityDescription);
+                            strBuilder.AppendFormat("{0}\n\t{1}\n\t{2}", 
+                                $"The status of the {json.displayName} is as follows",
+                                $"Road Status is {json.statusSeverity}",
+                                $"Road Status Description is {json.statusSeverityDescription}" );
 
                             rtnCode = 0;
                         }
