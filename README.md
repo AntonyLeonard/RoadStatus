@@ -9,7 +9,7 @@ Navigate to the project folder and select the solution file (RoadStatus.sln).
 
 <b>Please add your ApiId and ApiKey in config file.</b>
 
-Select Build -> Build Solution from menu or press F6.
+Select Build -> Build Solution from menu.
 
 
 # How to run the output
@@ -63,7 +63,7 @@ Select Build -> Build Solution from menu or press F6.
 
 # To Run Tests
 In Visual Studio, all test cases of Test project “TestRoadStatus” can be run by simply selecting Test->Run->All Tests 
-from menu or pressing Ctrl + R + A. The outcome of all test results can be seen through Test Explorer in Visual Studio.
+from menu. The outcome of all test results can be seen through Test Explorer in Visual Studio.
 
 <b>Please add your ApiId and ApiKey in config file of test project before running the tests.</b>
 
